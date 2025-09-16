@@ -38,11 +38,12 @@ Electronic synthesizer sounds are controlled by presets, parameters settings tha
    ```
 
 3. **Download pretrained models:**
-   ```bash
-   # TODO: Put model checkpoints
-   # Download model checkpoints to ./checkpoints/
-   # (Model links will be provided upon publication)
-   ```
+   
+   Download the pretrained model checkpoints to the `./checkpoints/` directory from the following repository:
+   
+   **Model Repository**: [https://drive.google.com/drive/folders/1KSMGYw5LAzWAI5y9l1OpQdSP8p5jI5fF?usp=sharing](https://drive.google.com/drive/folders/1KSMGYw5LAzWAI5y9l1OpQdSP8p5jI5fF?usp=sharing)
+   
+   > **Note**: Additional model checkpoints will be made available upon publication of the associated research paper.
 
 ### Basic Usage
 
