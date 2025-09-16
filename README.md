@@ -41,7 +41,7 @@ Electronic synthesizer sounds are controlled by presets, parameters settings tha
    
    Download the pretrained model checkpoints to the `./checkpoints/` directory from the following repository:
    
-   **Model Repository**: [https://drive.google.com/drive/folders/1KSMGYw5LAzWAI5y9l1OpQdSP8p5jI5fF?usp=sharing](https://drive.google.com/drive/folders/1KSMGYw5LAzWAI5y9l1OpQdSP8p5jI5fF?usp=sharing)
+   **Model Repository**: [https://drive.google.com/drive/folders/1KSMGYw5LAzWAI5y9l1OpQdSP8p5jI5fF?usp=drive_link](https://drive.google.com/drive/folders/1KSMGYw5LAzWAI5y9l1OpQdSP8p5jI5fF?usp=drive_link)
    
    > **Note**: Additional model checkpoints will be made available upon publication of the associated research paper.
 
@@ -86,6 +86,12 @@ python inference.py \
     --output_path output_both.wav
 ```
 
+4. **Download evaluation dataset:**
+   
+   The evaluation dataset used for benchmarking is available at:
+   
+   **Evaluation Dataset**: [https://drive.google.com/drive/folders/1Vbrbz7tC0rqFEa5wRtibJJ2OJYT3PNCG?usp=sharing](https://drive.google.com/drive/folders/1Vbrbz7tC0rqFEa5wRtibJJ2OJYT3PNCG?usp=sharing)
+
 
 **Command Line Arguments:**
 - `--orig_audio` (required): Path to original audio file
@@ -105,7 +111,7 @@ python inference.py \
 | SS-VAE | 7.22 | 0.92 | 641.62 | 2.20 | 2.25 | 3.41 |
 | CTD | 5.69 | 0.89 | 583.01 | 2.34 | 2.48 | 1.86 |
 | **SynthCloner (ours)** | **3.00** | **0.17** | **20.64** | **3.91** | **3.94** | **4.11** |
-| -- w/o ADSR envelope path | 3.84 | 0.42 | 29.04 | 3.20 | 2.43 | 3.87 |
+| -- w/o ADSR envelope path | 3.84 | 0.42 | 29.04 | 3.09 | 2.40 | 3.76 |
 
 **Objective Metrics:**
 - **MSTFT**: Multi-Scale STFT Loss (lower is better)
