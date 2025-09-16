@@ -59,7 +59,7 @@ Figure 2: Visualization of the ADSR envelope
 
 ## Preset Conversion Experiments with Audio Pairs
 
-This section presents audio pairs from our preset conversion experiments, organized into three groups based on ADSR characteristics. Each pair includes: original audio, reference audio, ground-truth reconstruction, our proposed model output, ablation without ADSR extractor, CTD, and SS-VQVAE.
+This section presents audio pairs from our preset conversion experiments, organized into three groups based on ADSR characteristics. Each pair includes: original audio, reference audio, ground-truth reconstruction, our proposed model output, ablation without ADSR extractor, CTD <a href="#note1" id="note1ref">[1]</a>, and SS-VQVAE <a href="#note2" id="note2ref">[2]</a>.
 
 As shown in Figure 1, our model disentangles audio into three latent factors: ADSR, Content, and Timbre. In these experiments, we preserve the Content features from the original audio while replacing the ADSR and Timbre features with those from the reference audio. Specifically, if the original audio is represented as (e₁, c₁, t₁) and the reference as (e₂, c₂, t₂), the reconstructed output yields (e₂, c₁, t₂). The ablation study without the ADSR extractor demonstrates the critical importance of this component in our model architecture.
 
