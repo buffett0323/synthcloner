@@ -5,15 +5,17 @@
 </div>
 
 <div style="text-align: center">
-<p>Jeng-Yue Liu<sup>1, 2</sup>, Ting-Chao Hsu<sup>1</sup>, Yen-Tung Yeh<sup>1</sup>, Li Su<sup>2</sup>, Yi-Hsuan Yang<sup>1</sup></p>
-<p><sup>1</sup> National Taiwan University</p>
-<p><sup>2</sup> Academia Sinica</p>
+<p>Jeng-Yue Liu<sup>1, 2, *</sup>, Ting-Chao Hsu<sup>1, *</sup>, Yen-Tung Yeh<sup>1</sup>, Li Su<sup>2</sup>, Yi-Hsuan Yang<sup>1</sup></p>
+<p><sup>1</sup> National Taiwan University, <sup>2</sup> Academia Sinica</p>
+<p><sup>*</sup> Equal contribution</p>
+
+[![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/buffett0323/synthcloner)
+[![Dataset](https://img.shields.io/badge/Dataset-Download-orange)](https://drive.google.com/drive/folders/1Vbrbz7tC0rqFEa5wRtibJJ2OJYT3PNCG?usp=sharing)
+
 </div>
 
-
 ## Abstract
-
-This collection presents 16 audio pairs for comprehensive evaluation of synthesizer preset conversion methods. Each pair contains 7 distinct audio files: original audio, reference audio, ground truth reconstruction, our proposed model output, ablation without ADSR extractor, CTD <a href="#note1" id="note1ref">[1]</a>, and SS-VQVAE <a href="#note2" id="note2ref">[2]</a>. This standardized framework enables detailed comparison of different audio reconstruction approaches across various content types. Code is available <a href="https://github.com/buffett0323/synthcloner">here</a>.
+Electronic synthesizer sounds are controlled by presets, parameters settings that yield complex timbral characteristics and ADSR envelopes, making preset conversion particularly challenging. Recent approaches to timbre transfer often rely on spectral objectives or implicit style matching, offering limited control over envelope shaping. Moreover, public synthesizer datasets rarely provide diverse coverage of timbres and ADSR envelopes. To address these gaps, we present SynthCloner, a factorized codec model that disentangles audio into three attributes: ADSR envelope, timbre, and content. This separation enables expressive synthesizer preset conversion with independent control over these three attributes. Additionally, we introduce SynthCAT, a new synthesizer dataset with a task-specific rendering pipeline covering 250 timbres, 120 ADSR envelopes, and 100 MIDI sequences. Experiments show that SynthCloner outperforms baselines on both objective and subjective metrics, while enabling independent attribute control. The implementation code is available <a href="https://github.com/buffett0323/synthcloner">here</a>, and the evaluation dataset can be accessed <a href="https://drive.google.com/drive/folders/1Vbrbz7tC0rqFEa5wRtibJJ2OJYT3PNCG?usp=sharing">here</a>.
 
 
 

@@ -2,10 +2,9 @@
 
 <div align="center">
 
-**Jeng-Yue Liu<sup>1, 2</sup>, Ting-Chao Hsu<sup>1</sup>, Yen-Tung Yeh<sup>1</sup>, Li Su<sup>2</sup>, Yi-Hsuan Yang<sup>1</sup>**
-
-<sup>1</sup> National Taiwan University
-<sup>2</sup> Academia Sinica
+<p>Jeng-Yue Liu<sup>1, 2, *</sup>, Ting-Chao Hsu<sup>1, *</sup>, Yen-Tung Yeh<sup>1</sup>, Li Su<sup>2</sup>, Yi-Hsuan Yang<sup>1</sup></p>
+<p><sup>1</sup> National Taiwan University, <sup>2</sup> Academia Sinica</p>
+<p><sup>*</sup> Equal contribution</p>
 
 [![Demo](https://img.shields.io/badge/Demo-Live%20Demo-blue)](https://buffett0323.github.io/synthcloner/)
 [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/buffett0323/synthcloner)
