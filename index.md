@@ -9,8 +9,8 @@
 <p><sup>1</sup> National Taiwan University, <sup>2</sup> Academia Sinica</p>
 <p><sup>*</sup> Equal contribution</p>
 
-[![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/buffett0323/synthcloner)
-[![Dataset](https://img.shields.io/badge/Dataset-Download-orange)](https://drive.google.com/drive/folders/1Vbrbz7tC0rqFEa5wRtibJJ2OJYT3PNCG?usp=sharing)
+<a href="https://github.com/buffett0323/synthcloner"><img src="https://img.shields.io/badge/Code-GitHub-green" alt="Code"></a>
+<a href="https://drive.google.com/drive/folders/1Vbrbz7tC0rqFEa5wRtibJJ2OJYT3PNCG?usp=sharing"><img src="https://img.shields.io/badge/Dataset-Download-orange" alt="Dataset"></a>
 
 </div>
 
