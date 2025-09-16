@@ -1,18 +1,29 @@
-<div style="text-align: center">
+<div align="center">
 
-<h1>SynthCloner: Synthesizer Preset Conversion via Factorized Codec with Disentangled Timbre and ADSR Control</h1>
+  <h1>SynthCloner: Synthesizer Preset Conversion via Factorized Codec with Disentangled Timbre and ADSR Control</h1>
+
+  <p>
+    Jeng-Yue Liu<sup>1,2,*</sup>, Ting-Chao Hsu<sup>1,*</sup>, Yen-Tung Yeh<sup>1</sup>, Li Su<sup>2</sup>, Yi-Hsuan Yang<sup>1</sup><br>
+    <sup>1</sup> National Taiwan University &nbsp; <sup>2</sup> Academia Sinica<br>
+    <sup>*</sup> Equal contribution
+  </p>
+
+  <p class="badges">
+    <a href="https://github.com/buffett0323/synthcloner">
+      <img src="https://img.shields.io/badge/Code-GitHub-green" alt="Code">
+    </a>
+    <a href="https://drive.google.com/drive/folders/1Vbrbz7tC0rqFEa5wRtibJJ2OJYT3PNCG?usp=sharing">
+      <img src="https://img.shields.io/badge/Dataset-Download-orange" alt="Dataset">
+    </a>
+  </p>
 
 </div>
 
-<div style="text-align: center">
-<p>Jeng-Yue Liu<sup>1, 2, *</sup>, Ting-Chao Hsu<sup>1, *</sup>, Yen-Tung Yeh<sup>1</sup>, Li Su<sup>2</sup>, Yi-Hsuan Yang<sup>1</sup></p>
-<p><sup>1</sup> National Taiwan University, <sup>2</sup> Academia Sinica</p>
-<p><sup>*</sup> Equal contribution</p>
-
-<a href="https://github.com/buffett0323/synthcloner"><img src="https://img.shields.io/badge/Code-GitHub-green" alt="Code"></a>
-<a href="https://drive.google.com/drive/folders/1Vbrbz7tC0rqFEa5wRtibJJ2OJYT3PNCG?usp=sharing"><img src="https://img.shields.io/badge/Dataset-Download-orange" alt="Dataset"></a>
-
-</div>
+<style>
+  /* keep badges on one line & nicely spaced, resist theme overrides */
+  .badges a img { display:inline-block; vertical-align:middle; }
+  .badges a { margin: 0 6px; }
+</style>
 
 ## Abstract
 Electronic synthesizer sounds are controlled by presets, parameters settings that yield complex timbral characteristics and ADSR envelopes, making preset conversion particularly challenging. Recent approaches to timbre transfer often rely on spectral objectives or implicit style matching, offering limited control over envelope shaping. Moreover, public synthesizer datasets rarely provide diverse coverage of timbres and ADSR envelopes. To address these gaps, we present SynthCloner, a factorized codec model that disentangles audio into three attributes: ADSR envelope, timbre, and content. This separation enables expressive synthesizer preset conversion with independent control over these three attributes. Additionally, we introduce SynthCAT, a new synthesizer dataset with a task-specific rendering pipeline covering 250 timbres, 120 ADSR envelopes, and 100 MIDI sequences. Experiments show that SynthCloner outperforms baselines on both objective and subjective metrics, while enabling independent attribute control. The implementation code is available <a href="https://github.com/buffett0323/synthcloner">here</a>, and the evaluation dataset can be accessed <a href="https://drive.google.com/drive/folders/1Vbrbz7tC0rqFEa5wRtibJJ2OJYT3PNCG?usp=sharing">here</a>.
