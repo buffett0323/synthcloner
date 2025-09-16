@@ -1,0 +1,73 @@
+# path: /mnt/gestalt/home/buffett # NTU
+path: /home/buffett/dataset # Sinica
+postfix: "0608"
+wandb_project: edm-fac
+wandb_name: train only lead + predictors + timbre
+
+wandb_dir: ${path}/EDM_FAC_LOG/${postfix}
+save_path: ${path}/EDM_FAC_LOG/${postfix}
+ckpt_path: ${path}/EDM_FAC_LOG/${postfix}/ckpt
+data_path: ${path}/EDM_FAC_DATA
+root_path: ${path}/EDM_FAC_DATA
+midi_path: ${path}/EDM_FAC_DATA/single_note_midi
+beatport_path: ${path}/EDM_FAC_DATA/beatport
+
+
+batch_size: 8 #4
+save_interval: 5000
+sample_freq: 1000
+validate_interval: 1000
+validate_steps: 100
+num_iters: 1000000 #250000
+seed: 42
+val_idx: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+timbre_classes: 59
+resume: True
+mel_loss_full: False
+
+
+num_workers: 8
+prefetch_factor: 8
+duration: 1
+total_duration: 5
+sample_rate: 44100
+min_note: 21
+max_note: 108
+stems: ["lead"] #["lead", "pad", "bass", "keys", "pluck"]
+
+
+
+# preprocess_params:
+# spect_params:
+n_fft: 2048
+hop_length: 512
+
+# model_params:
+fixed: True
+causal: True
+lstm: 2
+norm_f0: True
+use_gr_content_f0: False
+use_gr_prosody_phone: False
+use_gr_timbre_prosody: False
+separate_prosody_encoder: True
+n_c_codebooks: 2
+timbre_norm: True
+use_gr_content_global_f0: True
+
+
+# DAC:
+encoder_dim: 64
+encoder_rates:  [2, 4, 8, 8] # -> 512 #[2, 5, 5, 6]
+latent_dim: 256
+decoder_dim: 1536
+decoder_rates:  [8, 8, 4, 2] #[ 6, 5, 5, 2 ]
+sr: 44100 # 24000
+
+# loss_params:
+base_lr: 0.0001
+discriminator_iter_start: 2000
+lambda_spk: 1.0
+lambda_mel: 45
+lambda_f0: 1.0
+lambda_uv: 1.0

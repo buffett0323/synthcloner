@@ -1,0 +1,63 @@
+# path: /mnt/gestalt/home/buffett # NTU
+path: /home/buffett/nas_data # Sinica
+postfix: "0707_ss_grl"
+disentanglement: ["reconstruction", "conv_timbre"] # ["reconstruction", "conv_both", "conv_adsr", "conv_timbre"]
+convert_type: ["both", "adsr", "timbre"]
+
+wandb_dir: ${path}/EDM_FAC_LOG/${postfix}
+save_path: ${path}/EDM_FAC_LOG/${postfix}
+ckpt_path: ${path}/EDM_FAC_LOG/${postfix}/ckpt
+root_path: ${path}/EDM_FAC_NEW_DATA/rendered_ss_t_adsr_c #${path}/EDM_FAC_DATA
+# beatport_path: ${path}/EDM_FAC_DATA/beatport
+
+
+batch_size: 4
+save_interval: 10000
+sample_freq: 1000
+validate_interval: 1000
+validate_steps: 100
+num_iters: 1000000 #250000
+seed: 42
+val_idx: [0, 1, 2, 3, 4, 5, 6, 7] #[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+timbre_classes: 157 #428
+adsr_classes: 100
+n_notes: 21
+resume: False
+
+
+num_workers: 8
+prefetch_factor: 8
+duration: 1
+sample_rate: 44100
+
+
+# preprocess_params:
+# spect_params:
+n_fft: 2048
+hop_length: 512
+
+# model_params:
+fixed: True
+causal: True
+lstm: 2
+n_c_codebooks: 2
+use_gr_content: False #True
+use_gr_adsr: False #True
+use_gr_timbre: True #True
+use_FiLM: False #True
+
+# dataset_params:
+perturb_content: False #True
+perturb_adsr: False #True
+perturb_timbre: True
+
+# DAC:
+encoder_dim: 64
+encoder_rates:  [2, 4, 8, 8] # -> 512 #[2, 5, 5, 6]
+latent_dim: 256
+decoder_dim: 1536
+decoder_rates:  [8, 8, 4, 2] #[ 6, 5, 5, 2 ]
+
+# loss_params:
+base_lr: 0.0001
+discriminator_iter_start: 2000

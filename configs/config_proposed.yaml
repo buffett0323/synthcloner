@@ -1,0 +1,73 @@
+# path: /mnt/gestalt/home/buffett # NTU
+path: /home/buffett/nas_data # Sinica
+postfix: "0804_proposed"
+note: "Proposed model: Masked Content P=0.5 for 5 frames, Cross Attention, Add ADSR Embedding"
+disentanglement: ["reconstruction", "conv_both", "conv_adsr", "conv_timbre"] # ["reconstruction"]
+convert_type: ["both", "adsr", "timbre"]
+
+wandb_dir: ${path}/EDM_FAC_LOG/${postfix}
+save_path: ${path}/EDM_FAC_LOG/${postfix}
+ckpt_path: ${path}/EDM_FAC_LOG/${postfix}/ckpt
+root_path: ${path}/EDM_FAC_FINAL_DATA/rendered_mn_t_adsr_c
+midi_path: ${path}/EDM_FAC_FINAL_DATA/midi_files
+
+batch_size: 8
+save_interval: 10000
+sample_freq: 2000
+validate_interval: 2000
+validate_steps: 100
+num_iters: 800000 # 300000, 300k
+seed: 42
+val_idx: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+timbre_classes: 250
+adsr_classes: 120
+n_notes: 88
+min_note: 21
+max_note: 108
+resume: True #True
+
+
+num_workers: 8
+prefetch_factor: 8
+duration: 1
+sample_rate: 44100
+
+
+# spect_params:
+n_fft: 2048
+hop_length: 512
+
+# model_params:
+causal: False # True
+lstm: 2
+use_gr_content: False #True
+use_gr_adsr: False #True
+use_gr_timbre: False #True
+
+# dataset_params:
+perturb_content: True #True
+perturb_timbre: True
+perturb_adsr: True #True
+
+# ADSR
+rule_based_adsr_folding: False
+use_FiLM: False #True
+use_env_loss: False #True
+use_cross_attn: True # False
+get_midi_only_from_onset: True #False
+mask_delay_frames: 5 # 58ms
+mask_prob: 0.5 # 0.7
+adsr_enc_ver: "V1" #"V1", "V3", "V4"
+adsr_enc_dim: 256 # 64
+
+
+# DAC:
+encoder_dim: 64
+encoder_rates:  [2, 4, 8, 8] # -> 512 #[2, 5, 5, 6]
+latent_dim: 256
+decoder_dim: 1536
+decoder_rates:  [8, 8, 4, 2] #[ 6, 5, 5, 2 ]
+
+# loss_params:
+base_lr: 0.0001
+discriminator_iter_start: 2000 # 0

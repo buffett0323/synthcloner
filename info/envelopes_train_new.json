@@ -1,0 +1,1002 @@
+[
+    {
+        "id": 76,
+        "attack": 97.99,
+        "decay": 136.159,
+        "hold": 101.405,
+        "sustain": 0.692,
+        "release": 226.4,
+        "length": 561.954,
+        "stem": "lead"
+    },
+    {
+        "id": 87,
+        "attack": 10.587,
+        "decay": 119.046,
+        "hold": 4.233,
+        "sustain": 0.783,
+        "release": 127.12,
+        "length": 260.986,
+        "stem": "lead"
+    },
+    {
+        "id": 98,
+        "attack": 52.411,
+        "decay": 163.807,
+        "hold": 85.481,
+        "sustain": 0.502,
+        "release": 163.151,
+        "length": 464.84999999999997,
+        "stem": "lead"
+    },
+    {
+        "id": 22,
+        "attack": 46.423,
+        "decay": 94.087,
+        "hold": 12.47,
+        "sustain": 0.188,
+        "release": 101.945,
+        "length": 254.92499999999998,
+        "stem": "pluck"
+    },
+    {
+        "id": 26,
+        "attack": 15.864,
+        "decay": 66.974,
+        "hold": 2.739,
+        "sustain": 0.109,
+        "release": 81.306,
+        "length": 166.883,
+        "stem": "pluck"
+    },
+    {
+        "id": 1,
+        "attack": 11.632,
+        "decay": 61.242,
+        "hold": 19.334,
+        "sustain": 0.169,
+        "release": 38.992,
+        "length": 131.2,
+        "stem": "pluck"
+    },
+    {
+        "id": 14,
+        "attack": 25.291,
+        "decay": 128.049,
+        "hold": 8.588,
+        "sustain": 0.192,
+        "release": 88.631,
+        "length": 250.559,
+        "stem": "pluck"
+    },
+    {
+        "id": 50,
+        "attack": 60.077,
+        "decay": 240.047,
+        "hold": 111.468,
+        "sustain": 0.404,
+        "release": 211.309,
+        "length": 622.9010000000001,
+        "stem": "lead"
+    },
+    {
+        "id": 92,
+        "attack": 51.543,
+        "decay": 290.249,
+        "hold": 130.994,
+        "sustain": 0.615,
+        "release": 280.6,
+        "length": 753.3860000000001,
+        "stem": "lead"
+    },
+    {
+        "id": 53,
+        "attack": 49.107,
+        "decay": 178.133,
+        "hold": 141.37,
+        "sustain": 0.439,
+        "release": 137.987,
+        "length": 506.597,
+        "stem": "lead"
+    },
+    {
+        "id": 16,
+        "attack": 44.107,
+        "decay": 74.608,
+        "hold": 10.357,
+        "sustain": 0.185,
+        "release": 81.074,
+        "length": 210.14600000000002,
+        "stem": "pluck"
+    },
+    {
+        "id": 46,
+        "attack": 12.611,
+        "decay": 59.158,
+        "hold": 16.775,
+        "sustain": 0.026,
+        "release": 66.792,
+        "length": 155.336,
+        "stem": "pluck"
+    },
+    {
+        "id": 83,
+        "attack": 57.726,
+        "decay": 219.134,
+        "hold": 140.324,
+        "sustain": 0.665,
+        "release": 106.436,
+        "length": 523.62,
+        "stem": "lead"
+    },
+    {
+        "id": 59,
+        "attack": 16.524,
+        "decay": 138.94,
+        "hold": 3.827,
+        "sustain": 0.614,
+        "release": 170.809,
+        "length": 330.1,
+        "stem": "lead"
+    },
+    {
+        "id": 39,
+        "attack": 36.733,
+        "decay": 100.868,
+        "hold": 3.814,
+        "sustain": 0.161,
+        "release": 57.286,
+        "length": 198.701,
+        "stem": "pluck"
+    },
+    {
+        "id": 36,
+        "attack": 40.508,
+        "decay": 92.512,
+        "hold": 13.348,
+        "sustain": 0.197,
+        "release": 53.463,
+        "length": 199.83100000000002,
+        "stem": "pluck"
+    },
+    {
+        "id": 69,
+        "attack": 61.243,
+        "decay": 162.184,
+        "hold": 9.945,
+        "sustain": 0.446,
+        "release": 145.515,
+        "length": 378.88699999999994,
+        "stem": "lead"
+    },
+    {
+        "id": 65,
+        "attack": 25.877,
+        "decay": 284.514,
+        "hold": 155.732,
+        "sustain": 0.767,
+        "release": 126.483,
+        "length": 592.606,
+        "stem": "lead"
+    },
+    {
+        "id": 63,
+        "attack": 79.601,
+        "decay": 100.058,
+        "hold": 88.535,
+        "sustain": 0.504,
+        "release": 254.349,
+        "length": 522.5429999999999,
+        "stem": "lead"
+    },
+    {
+        "id": 72,
+        "attack": 69.949,
+        "decay": 252.971,
+        "hold": 89.141,
+        "sustain": 0.55,
+        "release": 92.482,
+        "length": 504.543,
+        "stem": "lead"
+    },
+    {
+        "id": 4,
+        "attack": 35.385,
+        "decay": 96.087,
+        "hold": 4.788,
+        "sustain": 0.077,
+        "release": 72.974,
+        "length": 209.23400000000004,
+        "stem": "pluck"
+    },
+    {
+        "id": 80,
+        "attack": 90.465,
+        "decay": 208.641,
+        "hold": 61.736,
+        "sustain": 0.415,
+        "release": 171.89,
+        "length": 532.732,
+        "stem": "lead"
+    },
+    {
+        "id": 10,
+        "attack": 21.637,
+        "decay": 192.553,
+        "hold": 15.675,
+        "sustain": 0.021,
+        "release": 74.781,
+        "length": 304.646,
+        "stem": "pluck"
+    },
+    {
+        "id": 6,
+        "attack": 41.616,
+        "decay": 180.972,
+        "hold": 19.277,
+        "sustain": 0.164,
+        "release": 47.727,
+        "length": 289.592,
+        "stem": "pluck"
+    },
+    {
+        "id": 62,
+        "attack": 48.233,
+        "decay": 294.715,
+        "hold": 140.664,
+        "sustain": 0.716,
+        "release": 160.5,
+        "length": 644.112,
+        "stem": "lead"
+    },
+    {
+        "id": 11,
+        "attack": 38.486,
+        "decay": 127.528,
+        "hold": 9.169,
+        "sustain": 0.157,
+        "release": 77.091,
+        "length": 252.274,
+        "stem": "pluck"
+    },
+    {
+        "id": 96,
+        "attack": 59.018,
+        "decay": 166.793,
+        "hold": 113.544,
+        "sustain": 0.736,
+        "release": 93.135,
+        "length": 432.49,
+        "stem": "lead"
+    },
+    {
+        "id": 60,
+        "attack": 98.781,
+        "decay": 182.878,
+        "hold": 78.122,
+        "sustain": 0.68,
+        "release": 200.937,
+        "length": 560.7180000000001,
+        "stem": "lead"
+    },
+    {
+        "id": 37,
+        "attack": 21.943,
+        "decay": 180.642,
+        "hold": 15.41,
+        "sustain": 0.033,
+        "release": 43.136,
+        "length": 261.13100000000003,
+        "stem": "pluck"
+    },
+    {
+        "id": 93,
+        "attack": 71.446,
+        "decay": 160.163,
+        "hold": 10.404,
+        "sustain": 0.659,
+        "release": 131.457,
+        "length": 373.47,
+        "stem": "lead"
+    },
+    {
+        "id": 55,
+        "attack": 78.938,
+        "decay": 248.272,
+        "hold": 24.639,
+        "sustain": 0.604,
+        "release": 228.082,
+        "length": 579.931,
+        "stem": "lead"
+    },
+    {
+        "id": 2,
+        "attack": 39.876,
+        "decay": 85.56,
+        "hold": 7.412,
+        "sustain": 0.042,
+        "release": 32.149,
+        "length": 164.997,
+        "stem": "pluck"
+    },
+    {
+        "id": 70,
+        "attack": 39.7,
+        "decay": 144.483,
+        "hold": 60.943,
+        "sustain": 0.573,
+        "release": 104.431,
+        "length": 349.55699999999996,
+        "stem": "lead"
+    },
+    {
+        "id": 38,
+        "attack": 13.831,
+        "decay": 71.008,
+        "hold": 11.943,
+        "sustain": 0.062,
+        "release": 83.59,
+        "length": 180.372,
+        "stem": "pluck"
+    },
+    {
+        "id": 15,
+        "attack": 19.593,
+        "decay": 137.191,
+        "hold": 15.454,
+        "sustain": 0.133,
+        "release": 101.352,
+        "length": 273.59000000000003,
+        "stem": "pluck"
+    },
+    {
+        "id": 54,
+        "attack": 83.008,
+        "decay": 138.634,
+        "hold": 82.59,
+        "sustain": 0.763,
+        "release": 257.131,
+        "length": 561.3629999999999,
+        "stem": "lead"
+    },
+    {
+        "id": 34,
+        "attack": 26.45,
+        "decay": 167.136,
+        "hold": 8.831,
+        "sustain": 0.119,
+        "release": 99.409,
+        "length": 301.82599999999996,
+        "stem": "pluck"
+    },
+    {
+        "id": 21,
+        "attack": 48.679,
+        "decay": 153.543,
+        "hold": 1.037,
+        "sustain": 0.157,
+        "release": 116.267,
+        "length": 319.526,
+        "stem": "pluck"
+    },
+    {
+        "id": 66,
+        "attack": 28.64,
+        "decay": 291.042,
+        "hold": 75.537,
+        "sustain": 0.632,
+        "release": 203.305,
+        "length": 598.5239999999999,
+        "stem": "lead"
+    },
+    {
+        "id": 12,
+        "attack": 22.058,
+        "decay": 126.373,
+        "hold": 7.358,
+        "sustain": 0.186,
+        "release": 90.261,
+        "length": 246.05,
+        "stem": "pluck"
+    },
+    {
+        "id": 84,
+        "attack": 77.075,
+        "decay": 106.116,
+        "hold": 181.444,
+        "sustain": 0.56,
+        "release": 205.111,
+        "length": 569.746,
+        "stem": "lead"
+    },
+    {
+        "id": 30,
+        "attack": 32.904,
+        "decay": 156.682,
+        "hold": 19.56,
+        "sustain": 0.18,
+        "release": 69.728,
+        "length": 278.87399999999997,
+        "stem": "pluck"
+    },
+    {
+        "id": 88,
+        "attack": 76.318,
+        "decay": 261.537,
+        "hold": 9.477,
+        "sustain": 0.648,
+        "release": 198.014,
+        "length": 545.346,
+        "stem": "lead"
+    },
+    {
+        "id": 73,
+        "attack": 98.14,
+        "decay": 275.538,
+        "hold": 48.206,
+        "sustain": 0.541,
+        "release": 173.224,
+        "length": 595.108,
+        "stem": "lead"
+    },
+    {
+        "id": 64,
+        "attack": 48.425,
+        "decay": 247.724,
+        "hold": 19.771,
+        "sustain": 0.484,
+        "release": 205.752,
+        "length": 521.672,
+        "stem": "lead"
+    },
+    {
+        "id": 32,
+        "attack": 18.069,
+        "decay": 135.5,
+        "hold": 4.194,
+        "sustain": 0.117,
+        "release": 56.511,
+        "length": 214.27399999999997,
+        "stem": "pluck"
+    },
+    {
+        "id": 51,
+        "attack": 38.818,
+        "decay": 229.091,
+        "hold": 82.018,
+        "sustain": 0.533,
+        "release": 297.973,
+        "length": 647.9000000000001,
+        "stem": "lead"
+    },
+    {
+        "id": 17,
+        "attack": 43.584,
+        "decay": 109.611,
+        "hold": 9.134,
+        "sustain": 0.184,
+        "release": 42.777,
+        "length": 205.106,
+        "stem": "pluck"
+    },
+    {
+        "id": 27,
+        "attack": 38.834,
+        "decay": 96.915,
+        "hold": 16.891,
+        "sustain": 0.2,
+        "release": 73.552,
+        "length": 226.192,
+        "stem": "pluck"
+    },
+    {
+        "id": 5,
+        "attack": 36.49,
+        "decay": 164.482,
+        "hold": 19.946,
+        "sustain": 0.08,
+        "release": 52.58,
+        "length": 273.498,
+        "stem": "pluck"
+    },
+    {
+        "id": 74,
+        "attack": 64.697,
+        "decay": 278.928,
+        "hold": 185.428,
+        "sustain": 0.632,
+        "release": 261.303,
+        "length": 790.356,
+        "stem": "lead"
+    },
+    {
+        "id": 8,
+        "attack": 37.227,
+        "decay": 53.701,
+        "hold": 3.456,
+        "sustain": 0.093,
+        "release": 72.225,
+        "length": 166.60899999999998,
+        "stem": "pluck"
+    },
+    {
+        "id": 47,
+        "attack": 24.501,
+        "decay": 109.274,
+        "hold": 10.033,
+        "sustain": 0.102,
+        "release": 40.152,
+        "length": 183.95999999999998,
+        "stem": "pluck"
+    },
+    {
+        "id": 78,
+        "attack": 45.016,
+        "decay": 141.886,
+        "hold": 115.808,
+        "sustain": 0.582,
+        "release": 139.286,
+        "length": 441.996,
+        "stem": "lead"
+    },
+    {
+        "id": 49,
+        "attack": 46.288,
+        "decay": 110.694,
+        "hold": 16.431,
+        "sustain": 0.028,
+        "release": 96.005,
+        "length": 269.418,
+        "stem": "pluck"
+    },
+    {
+        "id": 3,
+        "attack": 19.992,
+        "decay": 97.175,
+        "hold": 0.155,
+        "sustain": 0.17,
+        "release": 51.751,
+        "length": 169.073,
+        "stem": "pluck"
+    },
+    {
+        "id": 99,
+        "attack": 81.697,
+        "decay": 233.493,
+        "hold": 185.653,
+        "sustain": 0.663,
+        "release": 278.171,
+        "length": 779.0139999999999,
+        "stem": "lead"
+    },
+    {
+        "id": 33,
+        "attack": 46.418,
+        "decay": 133.43,
+        "hold": 3.174,
+        "sustain": 0.024,
+        "release": 57.871,
+        "length": 240.89300000000003,
+        "stem": "pluck"
+    },
+    {
+        "id": 44,
+        "attack": 37.133,
+        "decay": 165.347,
+        "hold": 13.543,
+        "sustain": 0.079,
+        "release": 63.586,
+        "length": 279.60900000000004,
+        "stem": "pluck"
+    },
+    {
+        "id": 79,
+        "attack": 88.322,
+        "decay": 186.956,
+        "hold": 117.543,
+        "sustain": 0.781,
+        "release": 208.63,
+        "length": 601.451,
+        "stem": "lead"
+    },
+    {
+        "id": 0,
+        "attack": 18.084,
+        "decay": 90.317,
+        "hold": 9.377,
+        "sustain": 0.087,
+        "release": 94.418,
+        "length": 212.196,
+        "stem": "pluck"
+    },
+    {
+        "id": 68,
+        "attack": 85.958,
+        "decay": 255.496,
+        "hold": 130.547,
+        "sustain": 0.794,
+        "release": 229.363,
+        "length": 701.364,
+        "stem": "lead"
+    },
+    {
+        "id": 35,
+        "attack": 35.001,
+        "decay": 138.765,
+        "hold": 1.414,
+        "sustain": 0.053,
+        "release": 46.85,
+        "length": 222.02999999999997,
+        "stem": "pluck"
+    },
+    {
+        "id": 97,
+        "attack": 16.814,
+        "decay": 245.357,
+        "hold": 148.165,
+        "sustain": 0.423,
+        "release": 118.641,
+        "length": 528.977,
+        "stem": "lead"
+    },
+    {
+        "id": 40,
+        "attack": 17.527,
+        "decay": 87.053,
+        "hold": 9.238,
+        "sustain": 0.093,
+        "release": 105.496,
+        "length": 219.314,
+        "stem": "pluck"
+    },
+    {
+        "id": 41,
+        "attack": 37.967,
+        "decay": 194.375,
+        "hold": 11.383,
+        "sustain": 0.103,
+        "release": 111.209,
+        "length": 354.93399999999997,
+        "stem": "pluck"
+    },
+    {
+        "id": 43,
+        "attack": 37.52,
+        "decay": 130.365,
+        "hold": 9.653,
+        "sustain": 0.111,
+        "release": 98.479,
+        "length": 276.017,
+        "stem": "pluck"
+    },
+    {
+        "id": 19,
+        "attack": 20.859,
+        "decay": 95.944,
+        "hold": 15.652,
+        "sustain": 0.086,
+        "release": 65.079,
+        "length": 197.534,
+        "stem": "pluck"
+    },
+    {
+        "id": 85,
+        "attack": 82.309,
+        "decay": 247.493,
+        "hold": 145.603,
+        "sustain": 0.552,
+        "release": 229.604,
+        "length": 705.009,
+        "stem": "lead"
+    },
+    {
+        "id": 13,
+        "attack": 16.311,
+        "decay": 165.228,
+        "hold": 9.268,
+        "sustain": 0.096,
+        "release": 58.377,
+        "length": 249.18400000000003,
+        "stem": "pluck"
+    },
+    {
+        "id": 81,
+        "attack": 38.027,
+        "decay": 229.224,
+        "hold": 109.262,
+        "sustain": 0.649,
+        "release": 84.612,
+        "length": 461.125,
+        "stem": "lead"
+    },
+    {
+        "id": 71,
+        "attack": 75.191,
+        "decay": 175.504,
+        "hold": 175.691,
+        "sustain": 0.413,
+        "release": 187.058,
+        "length": 613.444,
+        "stem": "lead"
+    },
+    {
+        "id": 89,
+        "attack": 52.448,
+        "decay": 142.1,
+        "hold": 61.713,
+        "sustain": 0.502,
+        "release": 198.49,
+        "length": 454.75100000000003,
+        "stem": "lead"
+    },
+    {
+        "id": 56,
+        "attack": 89.569,
+        "decay": 194.617,
+        "hold": 159.75,
+        "sustain": 0.473,
+        "release": 236.436,
+        "length": 680.372,
+        "stem": "lead"
+    },
+    {
+        "id": 25,
+        "attack": 44.42,
+        "decay": 188.109,
+        "hold": 12.114,
+        "sustain": 0.055,
+        "release": 32.762,
+        "length": 277.405,
+        "stem": "pluck"
+    },
+    {
+        "id": 94,
+        "attack": 47.468,
+        "decay": 187.573,
+        "hold": 117.744,
+        "sustain": 0.766,
+        "release": 208.764,
+        "length": 561.549,
+        "stem": "lead"
+    },
+    {
+        "id": 58,
+        "attack": 72.374,
+        "decay": 161.257,
+        "hold": 119.639,
+        "sustain": 0.473,
+        "release": 137.371,
+        "length": 490.64099999999996,
+        "stem": "lead"
+    },
+    {
+        "id": 31,
+        "attack": 27.62,
+        "decay": 132.282,
+        "hold": 15.937,
+        "sustain": 0.186,
+        "release": 79.134,
+        "length": 254.973,
+        "stem": "pluck"
+    },
+    {
+        "id": 82,
+        "attack": 36.588,
+        "decay": 194.873,
+        "hold": 142.016,
+        "sustain": 0.553,
+        "release": 137.525,
+        "length": 511.00199999999995,
+        "stem": "lead"
+    },
+    {
+        "id": 67,
+        "attack": 62.792,
+        "decay": 142.192,
+        "hold": 31.727,
+        "sustain": 0.677,
+        "release": 225.904,
+        "length": 462.615,
+        "stem": "lead"
+    },
+    {
+        "id": 52,
+        "attack": 73.228,
+        "decay": 200.953,
+        "hold": 2.515,
+        "sustain": 0.417,
+        "release": 126.172,
+        "length": 402.86799999999994,
+        "stem": "lead"
+    },
+    {
+        "id": 7,
+        "attack": 31.92,
+        "decay": 51.691,
+        "hold": 16.004,
+        "sustain": 0.04,
+        "release": 75.135,
+        "length": 174.75,
+        "stem": "pluck"
+    },
+    {
+        "id": 45,
+        "attack": 36.922,
+        "decay": 155.333,
+        "hold": 16.8,
+        "sustain": 0.099,
+        "release": 41.514,
+        "length": 250.56900000000002,
+        "stem": "pluck"
+    },
+    {
+        "id": 9,
+        "attack": 30.622,
+        "decay": 80.343,
+        "hold": 13.23,
+        "sustain": 0.152,
+        "release": 32.131,
+        "length": 156.32600000000002,
+        "stem": "pluck"
+    },
+    {
+        "id": 42,
+        "attack": 40.328,
+        "decay": 185.064,
+        "hold": 14.079,
+        "sustain": 0.144,
+        "release": 38.887,
+        "length": 278.358,
+        "stem": "pluck"
+    },
+    {
+        "id": 90,
+        "attack": 42.805,
+        "decay": 179.493,
+        "hold": 161.226,
+        "sustain": 0.615,
+        "release": 234.767,
+        "length": 618.2909999999999,
+        "stem": "lead"
+    },
+    {
+        "id": 86,
+        "attack": 47.791,
+        "decay": 282.066,
+        "hold": 49.557,
+        "sustain": 0.644,
+        "release": 80.639,
+        "length": 460.053,
+        "stem": "lead"
+    },
+    {
+        "id": 20,
+        "attack": 21.235,
+        "decay": 157.034,
+        "hold": 16.457,
+        "sustain": 0.124,
+        "release": 40.648,
+        "length": 235.374,
+        "stem": "pluck"
+    },
+    {
+        "id": 91,
+        "attack": 90.569,
+        "decay": 200.559,
+        "hold": 85.557,
+        "sustain": 0.725,
+        "release": 223.279,
+        "length": 599.9639999999999,
+        "stem": "lead"
+    },
+    {
+        "id": 61,
+        "attack": 23.455,
+        "decay": 268.519,
+        "hold": 102.565,
+        "sustain": 0.71,
+        "release": 174.025,
+        "length": 568.564,
+        "stem": "lead"
+    },
+    {
+        "id": 75,
+        "attack": 31.476,
+        "decay": 211.237,
+        "hold": 4.204,
+        "sustain": 0.497,
+        "release": 158.76,
+        "length": 405.677,
+        "stem": "lead"
+    },
+    {
+        "id": 24,
+        "attack": 30.031,
+        "decay": 193.972,
+        "hold": 18.301,
+        "sustain": 0.084,
+        "release": 53.691,
+        "length": 295.995,
+        "stem": "pluck"
+    },
+    {
+        "id": 23,
+        "attack": 20.934,
+        "decay": 96.957,
+        "hold": 9.298,
+        "sustain": 0.07,
+        "release": 101.041,
+        "length": 228.23,
+        "stem": "pluck"
+    },
+    {
+        "id": 18,
+        "attack": 23.742,
+        "decay": 199.161,
+        "hold": 17.283,
+        "sustain": 0.04,
+        "release": 72.077,
+        "length": 312.263,
+        "stem": "pluck"
+    },
+    {
+        "id": 28,
+        "attack": 42.416,
+        "decay": 154.905,
+        "hold": 17.303,
+        "sustain": 0.065,
+        "release": 93.651,
+        "length": 308.275,
+        "stem": "pluck"
+    },
+    {
+        "id": 95,
+        "attack": 31.157,
+        "decay": 209.153,
+        "hold": 154.008,
+        "sustain": 0.467,
+        "release": 108.69,
+        "length": 503.008,
+        "stem": "lead"
+    },
+    {
+        "id": 77,
+        "attack": 64.763,
+        "decay": 154.253,
+        "hold": 141.09,
+        "sustain": 0.71,
+        "release": 154.94,
+        "length": 515.046,
+        "stem": "lead"
+    },
+    {
+        "id": 57,
+        "attack": 57.895,
+        "decay": 222.4,
+        "hold": 119.351,
+        "sustain": 0.791,
+        "release": 123.592,
+        "length": 523.238,
+        "stem": "lead"
+    },
+    {
+        "id": 29,
+        "attack": 14.106,
+        "decay": 108.542,
+        "hold": 13.765,
+        "sustain": 0.059,
+        "release": 41.58,
+        "length": 177.993,
+        "stem": "pluck"
+    },
+    {
+        "id": 48,
+        "attack": 43.57,
+        "decay": 64.8,
+        "hold": 1.073,
+        "sustain": 0.171,
+        "release": 83.134,
+        "length": 192.577,
+        "stem": "pluck"
+    }
+]

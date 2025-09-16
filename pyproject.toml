@@ -1,0 +1,2 @@
+[tool.poetry.dependencies]
+pre-commit = "^4.2.0"

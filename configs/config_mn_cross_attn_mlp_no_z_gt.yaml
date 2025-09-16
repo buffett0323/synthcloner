@@ -1,0 +1,72 @@
+# path: /mnt/gestalt/home/buffett # NTU
+path: /home/buffett/nas_data # Sinica
+postfix: "0721_mn_cross_attn_mlp_no_z_gt"
+note: "BS=4, No Z-GT Loss, Env Loss + L1 Loss"
+disentanglement: ["reconstruction", "conv_both", "conv_adsr", "conv_timbre"]
+convert_type: ["recon", "both", "adsr", "timbre"]
+
+wandb_dir: ${path}/EDM_FAC_LOG/${postfix}
+save_path: ${path}/EDM_FAC_LOG/${postfix}
+ckpt_path: ${path}/EDM_FAC_LOG/${postfix}/ckpt
+# root_path: ${path}/EDM_FAC_NEW_DATA/rendered_ss_t_adsr_c #${path}/EDM_FAC_DATA
+# beatport_path: ${path}/EDM_FAC_DATA/beatport
+root_path: ${path}/EDM_FAC_NEW_DATA/rendered_mn_t_adsr_c
+midi_path: ${path}/EDM_FAC_NEW_DATA/midi_files
+
+batch_size: 4 #8
+save_interval: 10000
+sample_freq: 2000
+validate_interval: 2000
+validate_steps: 100
+num_iters: 1000000 #250000
+seed: 42
+val_idx: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+timbre_classes: 157 #428
+adsr_classes: 100
+n_notes: 88
+min_note: 21
+max_note: 108
+resume: False #True
+
+
+num_workers: 8
+prefetch_factor: 8
+duration: 1
+sample_rate: 44100
+
+
+# spect_params:
+n_fft: 2048
+hop_length: 512
+
+# model_params:
+causal: False # True
+lstm: 2
+use_gr_content: False #True
+use_gr_adsr: False #True
+use_gr_timbre: False #True
+
+# dataset_params:
+perturb_content: True #True
+perturb_timbre: True
+perturb_adsr: True #True
+
+# ADSR
+rule_based_adsr_folding: False
+use_FiLM: False #True
+use_z_gt: False #True
+use_env_loss: True #True
+use_z_mlp_loss: True #True
+adsr_enc_ver: "V4" #"V1", "V3", "V4"
+adsr_enc_dim: 64
+
+# DAC:
+encoder_dim: 64
+encoder_rates:  [2, 4, 8, 8] # -> 512 #[2, 5, 5, 6]
+latent_dim: 256
+decoder_dim: 1536
+decoder_rates:  [8, 8, 4, 2] #[ 6, 5, 5, 2 ]
+
+# loss_params:
+base_lr: 0.0001
+discriminator_iter_start: 2000 # 0

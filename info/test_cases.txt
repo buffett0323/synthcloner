@@ -1,0 +1,161 @@
+Top 32 lowest STFT loss entries:
+================================================================================
+1. STFT Loss: 1.2681, Envelope Loss: 0.1019
+Original: T031_ADSR004_C003
+Reference: T086_ADSR008_C008
+Target: T086_ADSR008_C003
+
+2. STFT Loss: 1.2872, Envelope Loss: 0.5719
+Original: T057_ADSR004_C007
+Reference: T185_ADSR008_C006
+Target: T185_ADSR008_C007
+
+3. STFT Loss: 1.2976, Envelope Loss: 0.1637
+Original: T174_ADSR011_C003
+Reference: T086_ADSR018_C004
+Target: T086_ADSR018_C003
+
+4. STFT Loss: 1.3154, Envelope Loss: 0.1014
+Original: T019_ADSR006_C003
+Reference: T086_ADSR002_C000
+Target: T086_ADSR002_C003
+
+5. STFT Loss: 1.3461, Envelope Loss: 0.0857
+Original: T095_ADSR006_C003
+Reference: T185_ADSR008_C004
+Target: T185_ADSR008_C003
+
+6. STFT Loss: 1.3502, Envelope Loss: 0.4501
+Original: T020_ADSR015_C007
+Reference: T086_ADSR018_C008
+Target: T086_ADSR018_C007
+
+7. STFT Loss: 1.3719, Envelope Loss: 0.3349
+Original: T243_ADSR005_C007
+Reference: T185_ADSR018_C000
+Target: T185_ADSR018_C007
+
+8. STFT Loss: 1.3808, Envelope Loss: 0.5703
+Original: T025_ADSR015_C007
+Reference: T032_ADSR008_C003
+Target: T032_ADSR008_C007
+
+9. STFT Loss: 1.3838, Envelope Loss: 0.6035
+Original: T010_ADSR007_C007
+Reference: T179_ADSR008_C001
+Target: T179_ADSR008_C007
+
+10. STFT Loss: 1.3877, Envelope Loss: 1.3475
+Original: T128_ADSR018_C008
+Reference: T086_ADSR008_C004
+Target: T086_ADSR008_C008
+
+11. STFT Loss: 1.3904, Envelope Loss: 0.3636
+Original: T092_ADSR019_C007
+Reference: T229_ADSR004_C005
+Target: T229_ADSR004_C007
+
+12. STFT Loss: 1.3908, Envelope Loss: 0.3584
+Original: T201_ADSR007_C007
+Reference: T179_ADSR018_C003
+Target: T179_ADSR018_C007
+
+13. STFT Loss: 1.3949, Envelope Loss: 0.5689
+Original: T167_ADSR018_C007
+Reference: T032_ADSR008_C003
+Target: T032_ADSR008_C007
+
+14. STFT Loss: 1.3950, Envelope Loss: 1.3266
+Original: T051_ADSR017_C008
+Reference: T185_ADSR008_C003
+Target: T185_ADSR008_C008
+
+15. STFT Loss: 1.3953, Envelope Loss: 0.0889
+Original: T162_ADSR011_C003
+Reference: T185_ADSR002_C009
+Target: T185_ADSR002_C003
+
+16. STFT Loss: 1.3976, Envelope Loss: 0.4798
+Original: T031_ADSR011_C007
+Reference: T185_ADSR015_C008
+Target: T185_ADSR015_C007
+
+17. STFT Loss: 1.3995, Envelope Loss: 0.1416
+Original: T151_ADSR005_C000
+Reference: T164_ADSR008_C004
+Target: T164_ADSR008_C000
+
+18. STFT Loss: 1.4003, Envelope Loss: 2.5262
+Original: T115_ADSR003_C007
+Reference: T185_ADSR010_C004
+Target: T185_ADSR010_C007
+
+19. STFT Loss: 1.4023, Envelope Loss: 0.1247
+Original: T115_ADSR002_C000
+Reference: T229_ADSR001_C009
+Target: T229_ADSR001_C000
+
+20. STFT Loss: 1.4060, Envelope Loss: 1.0930
+Original: T061_ADSR011_C008
+Reference: T185_ADSR004_C007
+Target: T185_ADSR004_C008
+
+21. STFT Loss: 1.4066, Envelope Loss: 0.0661
+Original: T171_ADSR010_C000
+Reference: T185_ADSR002_C009
+Target: T185_ADSR002_C000
+
+22. STFT Loss: 1.4091, Envelope Loss: 0.0826
+Original: T031_ADSR017_C000
+Reference: T008_ADSR008_C006
+Target: T008_ADSR008_C000
+
+23. STFT Loss: 1.4110, Envelope Loss: 1.0904
+Original: T129_ADSR011_C008
+Reference: T185_ADSR004_C005
+Target: T185_ADSR004_C008
+
+24. STFT Loss: 1.4111, Envelope Loss: 0.4319
+Original: T040_ADSR007_C007
+Reference: T032_ADSR001_C008
+Target: T032_ADSR001_C007
+
+25. STFT Loss: 1.4140, Envelope Loss: 2.5333
+Original: T096_ADSR003_C007
+Reference: T185_ADSR014_C000
+Target: T185_ADSR014_C007
+
+26. STFT Loss: 1.4158, Envelope Loss: 0.0670
+Original: T028_ADSR005_C000
+Reference: T032_ADSR004_C007
+Target: T032_ADSR004_C000
+
+27. STFT Loss: 1.4184, Envelope Loss: 0.0904
+Original: T013_ADSR002_C000
+Reference: T164_ADSR004_C006
+Target: T164_ADSR004_C000
+
+28. STFT Loss: 1.4197, Envelope Loss: 0.1334
+Original: T107_ADSR019_C000
+Reference: T229_ADSR015_C009
+Target: T229_ADSR015_C000
+
+29. STFT Loss: 1.4202, Envelope Loss: 2.5418
+Original: T152_ADSR009_C007
+Reference: T185_ADSR014_C000
+Target: T185_ADSR014_C007
+
+30. STFT Loss: 1.4226, Envelope Loss: 2.5368
+Original: T096_ADSR009_C007
+Reference: T185_ADSR014_C003
+Target: T185_ADSR014_C007
+
+31. STFT Loss: 1.4227, Envelope Loss: 0.4425
+Original: T006_ADSR003_C007
+Reference: T185_ADSR005_C006
+Target: T185_ADSR005_C007
+
+32. STFT Loss: 1.4240, Envelope Loss: 0.0708
+Original: T183_ADSR000_C000
+Reference: T169_ADSR001_C009
+Target: T169_ADSR001_C000

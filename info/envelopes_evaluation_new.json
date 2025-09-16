@@ -1,0 +1,202 @@
+[
+    {
+        "id": 0,
+        "attack": 10,
+        "decay": 50,
+        "hold": 0,
+        "sustain": 0.00,
+        "release": 30,
+        "length": 90,
+        "stem": "pluck"
+    },
+    {
+        "id": 1,
+        "attack": 10,
+        "decay": 100,
+        "hold": 0,
+        "sustain": 0.40,
+        "release": 80,
+        "length": 190,
+        "stem": "lead"
+    },
+    {
+        "id": 2,
+        "attack": 50,
+        "decay": 200,
+        "hold": 20,
+        "sustain": 0.20,
+        "release": 120,
+        "length": 390,
+        "stem": "pluck"
+    },
+    {
+        "id": 3,
+        "attack": 100,
+        "decay": 300,
+        "hold": 200,
+        "sustain": 0.80,
+        "release": 300,
+        "length": 900,
+        "stem": "lead"
+    },
+    {
+        "id": 4,
+        "attack": 10,
+        "decay": 200,
+        "hold": 0,
+        "sustain": 0.20,
+        "release": 120,
+        "length": 330,
+        "stem": "pluck"
+    },
+    {
+        "id": 5,
+        "attack": 100,
+        "decay": 100,
+        "hold": 0,
+        "sustain": 0.40,
+        "release": 80,
+        "length": 280,
+        "stem": "lead"
+    },
+    {
+        "id": 6,
+        "attack": 50,
+        "decay": 50,
+        "hold": 20,
+        "sustain": 0.00,
+        "release": 30,
+        "length": 150,
+        "stem": "pluck"
+    },
+    {
+        "id": 7,
+        "attack": 10,
+        "decay": 300,
+        "hold": 200,
+        "sustain": 0.80,
+        "release": 300,
+        "length": 810,
+        "stem": "lead"
+    },
+    {
+        "id": 8,
+        "attack": 10,
+        "decay": 50,
+        "hold": 20,
+        "sustain": 0.20,
+        "release": 30,
+        "length": 110,
+        "stem": "pluck"
+    },
+    {
+        "id": 9,
+        "attack": 100,
+        "decay": 300,
+        "hold": 0,
+        "sustain": 0.80,
+        "release": 300,
+        "length": 700,
+        "stem": "lead"
+    },
+    {
+        "id": 10,
+        "attack": 50,
+        "decay": 200,
+        "hold": 0,
+        "sustain": 0.00,
+        "release": 30,
+        "length": 280,
+        "stem": "pluck"
+    },
+    {
+        "id": 11,
+        "attack": 100,
+        "decay": 100,
+        "hold": 200,
+        "sustain": 0.80,
+        "release": 80,
+        "length": 480,
+        "stem": "lead"
+    },
+    {
+        "id": 12,
+        "attack": 10,
+        "decay": 50,
+        "hold": 0,
+        "sustain": 0.00,
+        "release": 120,
+        "length": 180,
+        "stem": "pluck"
+    },
+    {
+        "id": 13,
+        "attack": 10,
+        "decay": 300,
+        "hold": 0,
+        "sustain": 0.80,
+        "release": 300,
+        "length": 610,
+        "stem": "lead"
+    },
+    {
+        "id": 14,
+        "attack": 50,
+        "decay": 200,
+        "hold": 20,
+        "sustain": 0.00,
+        "release": 30,
+        "length": 300,
+        "stem": "pluck"
+    },
+    {
+        "id": 15,
+        "attack": 10,
+        "decay": 100,
+        "hold": 200,
+        "sustain": 0.40,
+        "release": 80,
+        "length": 390,
+        "stem": "lead"
+    },
+    {
+        "id": 16,
+        "attack": 10,
+        "decay": 200,
+        "hold": 20,
+        "sustain": 0.00,
+        "release": 30,
+        "length": 260,
+        "stem": "pluck"
+    },
+    {
+        "id": 17,
+        "attack": 100,
+        "decay": 300,
+        "hold": 0,
+        "sustain": 0.40,
+        "release": 80,
+        "length": 480,
+        "stem": "lead"
+    },
+    {
+        "id": 18,
+        "attack": 50,
+        "decay": 50,
+        "hold": 0,
+        "sustain": 0.20,
+        "release": 120,
+        "length": 220,
+        "stem": "pluck"
+    },
+    {
+        "id": 19,
+        "attack": 10,
+        "decay": 100,
+        "hold": 0,
+        "sustain": 0.80,
+        "release": 300,
+        "length": 410,
+        "stem": "lead"
+    }
+]
