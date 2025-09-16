@@ -4,7 +4,7 @@
 
 **Jeng-Yue Liu<sup>1, 2</sup>, Ting-Chao Hsu<sup>1</sup>, Yen-Tung Yeh<sup>1</sup>, Li Su<sup>2</sup>, Yi-Hsuan Yang<sup>1</sup>**
 
-<sup>1</sup> National Taiwan University  
+<sup>1</sup> National Taiwan University
 <sup>2</sup> Academia Sinica
 
 [![Demo](https://img.shields.io/badge/Demo-Live%20Demo-blue)](https://buffett0323.github.io/synthcloner/)
@@ -108,7 +108,7 @@ python inference.py \
 
 **Objective Metrics:**
 - **MSTFT**: Multi-Scale STFT Loss (lower is better)
-- **LRMSD**: Log RMS Distance (lower is better)  
+- **LRMSD**: Log RMS Distance (lower is better)
 - **F0RMSE**: F0 Root Mean Square Error (lower is better)
 
 **Subjective Metrics:**

@@ -1,4 +1,4 @@
-<div style="text-align: center"> 
+<div style="text-align: center">
 
 <h1>SynthCloner: Synthesizer Preset Conversion via Factorized Codec with Disentangled Timbre and ADSR Control</h1>
 
@@ -30,7 +30,7 @@ Figure 1: SynthCloner model framework
 ADSR (Attack, Decay, Sustain, Release) is a fundamental envelope model in sound synthesis that shapes how a note evolves over time. As illustrated in Figure 2, this four-stage process controls the dynamic characteristics of synthesized sounds:
 
 - **Attack**: The initial rising phase where sound reaches maximum amplitude from silence
-- **Decay**: The descending phase where sound decreases from peak to sustain level  
+- **Decay**: The descending phase where sound decreases from peak to sustain level
 - **Sustain**: The steady amplitude level maintained while the note is held (a level, not a time duration)
 - **Release**: The final phase where sound fades back to silence after the note is released
 
@@ -553,7 +553,7 @@ This section demonstrates the timbre control capabilities of our model, showing 
 
 
 
-## References 
+## References
 
 <a id="note1" href="#note1ref">[1]</a> N. Demerlé, P. Esling, G. Doras, and D. Genova, “Combining audio control and style transfer using latent diffusion,” in Proc. International Society for Music Information Retrieval (ISMIR), 2024
 
