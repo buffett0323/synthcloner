@@ -8,7 +8,7 @@
 
 [![Demo](https://img.shields.io/badge/Demo-Live%20Demo-blue)](https://buffett0323.github.io/synthcloner/)
 [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/buffett0323/synthcloner)
-<!-- [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2504.18157) -->
+[![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2509.24286)
 
 </div>
 

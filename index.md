@@ -9,6 +9,9 @@
   </p>
 
   <p class="badges">
+    <a href="https://arxiv.org/abs/2509.24286">
+      <img src="https://img.shields.io/badge/arXiv-2509.24286-b31b1b" alt="arXiv">
+    </a>
     <a href="https://github.com/buffett0323/synthcloner">
       <img src="https://img.shields.io/badge/Code-GitHub-green" alt="Code">
     </a>
