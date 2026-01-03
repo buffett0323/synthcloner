@@ -567,7 +567,58 @@ This section demonstrates the timbre control capabilities of our model, showing 
 
 <!-- *Note: The audio players are positioned above their corresponding images for easy comparison. The converted audio demonstrates timbre control while maintaining other audio characteristics.* -->
 
+## Out-of-Domain Preset Conversion
 
+This section presents conversions to out-of-domain, unseen-timbre examples generated using the <a href="https://vital.audio/" target="_blank">VITAL</a> synthesizer.
+
+<table class="table table-sm text-center" style="vertical-align: middle;">
+  <colgroup>
+      <col style="width: 120px;">
+      <col style="width: 160px;">
+      <col style="width: 160px;">
+      <col style="width: 160px;">
+    </colgroup>
+  <thead>
+    <tr>
+      <th style="text-align:center;">Pair ID</th>
+      <th style="text-align:center;">Original</th>
+      <th style="text-align:center;">Reference</th>
+      <th style="text-align:center;">Converted</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Pair 4-1</td>
+      <td><audio src="audios_ood/01_orig.wav" controls style="width: 160px"></audio></td>
+      <td><audio src="audios_ood/vital_01.wav" controls style="width: 160px"></audio></td>
+      <td><audio src="audios_ood/01_orig_to_vital_01_both.wav" controls style="width: 160px"></audio></td>
+    </tr>
+    <tr>
+      <td>Pair 4-2</td>
+      <td><audio src="audios_ood/02_orig.wav" controls style="width: 160px"></audio></td>
+      <td><audio src="audios_ood/vital_02.wav" controls style="width: 160px"></audio></td>
+      <td><audio src="audios_ood/02_orig_to_vital_02_both.wav" controls style="width: 160px"></audio></td>
+    </tr>
+    <tr>
+      <td>Pair 4-3</td>
+      <td><audio src="audios_ood/03_orig.wav" controls style="width: 160px"></audio></td>
+      <td><audio src="audios_ood/vital_03.wav" controls style="width: 160px"></audio></td>
+      <td><audio src="audios_ood/03_orig_to_vital_03_both.wav" controls style="width: 160px"></audio></td>
+    </tr>
+    <tr>
+      <td>Pair 4-4</td>
+      <td><audio src="audios_ood/04_orig.wav" controls style="width: 160px"></audio></td>
+      <td><audio src="audios_ood/vital_04.wav" controls style="width: 160px"></audio></td>
+      <td><audio src="audios_ood/04_orig_to_vital_04_both.wav" controls style="width: 160px"></audio></td>
+    </tr>
+    <tr>
+      <td>Pair 4-5</td>
+      <td><audio src="audios_ood/05_orig.wav" controls style="width: 160px"></audio></td>
+      <td><audio src="audios_ood/vital_05.wav" controls style="width: 160px"></audio></td>
+      <td><audio src="audios_ood/05_orig_to_vital_05_both.wav" controls style="width: 160px"></audio></td>
+    </tr>
+  </tbody>
+</table>
 
 ## References
 

@@ -1,9 +1,9 @@
 # path: /mnt/gestalt/home/buffett # NTU
-path: /home/buffett/nas_data # Sinica
-postfix: "0825_final_proposed"
+path: /home/buffett # Sinica
+postfix: "0817_proposed_no_mask_no_ca"
 note: "Final Proposed model: Masked Content P=0.5 for 5 frames, Content Add ADSR Embedding"
 disentanglement: ["reconstruction", "conv_both", "conv_adsr", "conv_timbre"] # ["reconstruction"]
-convert_type: ["both", "adsr", "timbre"]
+convert_type: "both" #["both", "adsr", "timbre"]
 
 wandb_dir: ${path}/EDM_FAC_LOG/${postfix}
 save_path: ${path}/EDM_FAC_LOG/${postfix}
