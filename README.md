@@ -37,11 +37,11 @@ Electronic synthesizer sounds are controlled by presets, parameters settings tha
    ```
 
 3. **Download pretrained models:**
-   
+
    Download the pretrained model checkpoints to the `./checkpoints/` directory from the following repository:
-   
+
    **Model Repository**: [https://drive.google.com/drive/folders/1KSMGYw5LAzWAI5y9l1OpQdSP8p5jI5fF?usp=drive_link](https://drive.google.com/drive/folders/1KSMGYw5LAzWAI5y9l1OpQdSP8p5jI5fF?usp=drive_link)
-   
+
    > **Note**: Additional model checkpoints will be made available upon publication of the associated research paper.
 
 ### Basic Usage
@@ -86,9 +86,9 @@ python inference.py \
 ```
 
 4. **Download evaluation dataset:**
-   
+
    The evaluation dataset used for benchmarking is available at:
-   
+
    **Evaluation Dataset**: [https://drive.google.com/drive/folders/1Vbrbz7tC0rqFEa5wRtibJJ2OJYT3PNCG?usp=sharing](https://drive.google.com/drive/folders/1Vbrbz7tC0rqFEa5wRtibJJ2OJYT3PNCG?usp=sharing)
 
 

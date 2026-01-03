@@ -1,4 +1,3 @@
-import sys
 import warnings
 import argparse
 import os
