@@ -85,7 +85,7 @@ As shown in Figure 1, our model disentangles audio into three latent factors: AD
       <th style="text-align:center;">Original</th>
       <th style="text-align:center;">Reference</th>
       <th style="text-align:center;">Ground Truth</th>
-      <th style="text-align:center;">Propo<strong>Proposed</strong>sed</th>
+      <th style="text-align:center;">Proposed</th>
       <th style="text-align:center;">w/o ADSR Extractor</th>
       <th style="text-align:center;">CTD</th>
       <th style="text-align:center;">SSVQVAE</th>
